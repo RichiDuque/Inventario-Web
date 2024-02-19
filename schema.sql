@@ -123,7 +123,7 @@ create table configuration(
 	kind int,
 	val varchar(255)
 );
-insert into configuration(short,name,kind,val) value("title","Titulo del Sistema",2,"Inventio Lite");
+insert into configuration(short,name,kind,val) value("title","Titulo del Sistema",2,"Inventario Frito Lay");
 insert into configuration(short,name,kind,val) value("use_image_product","Utilizar Imagenes en los productos",1,0);
 insert into configuration(short,name,kind,val) value("active_clients","Activar clientes",1,0);
 insert into configuration(short,name,kind,val) value("active_providers","Activar proveedores",1,0);
